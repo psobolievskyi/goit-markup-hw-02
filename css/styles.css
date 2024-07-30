@@ -17,20 +17,21 @@ ul {
 h1 {
   font-weight: Bold;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 60px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
   color: #2e2f42;
 }
 h2 {
   font-weight: Bold;
   font-size: 36px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 h3 {
-  font-weight: Medium;
+  font-weight: 500;
   font-size: 20px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   color: #2e2f42;
 }
 .small {
@@ -102,15 +103,17 @@ address a:focus {
 .hero-section {
   background-color: #2e2f42;
 }
-.hero-section h1 {
+.hero-title {
   color: white;
+  text-align: center;
 }
 /* Button */
 .hero-button {
-  font-weight: Medium;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
-  letter-spacing: 4%;
-  line-height: 24px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
   color: white;
   background-color: #4d5ae5;
   padding: 16px 32px 16px 32px;
@@ -119,13 +122,72 @@ address a:focus {
 .hero-button:hover {
   background-color: #404bbf;
 }
+.hero-button:focus {
+  background-color: #404bbf;
+}
+/* Advantages section */
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Team section */
+
+.team {
+  background-color: #f4f4fd;
+}
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  text-transform: capitalize;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* Portfolio section */
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* Footer */
 footer {
   background-color: #2e2f42;
 }
-footer p {
-  color: white;
-}
 footer .logo-span {
-  color: white;
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
