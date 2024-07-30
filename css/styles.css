@@ -116,7 +116,6 @@ address a:focus {
   line-height: 1.5;
   color: white;
   background-color: #4d5ae5;
-  padding: 16px 32px 16px 32px;
   cursor: pointer;
 }
 .hero-button:hover {
