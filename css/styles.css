@@ -1,0 +1,120 @@
+body {
+  /* Тепер (майже) всі елементи відображаються шрифтом без засічок */
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+h1 {
+  font-weight: Bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+  color: #2e2f42;
+}
+h2 {
+  font-weight: Bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+h3 {
+  font-weight: Medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+.small {
+  font-weight: Regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 14px;
+  color: #2e2f42;
+}
+.medium {
+  font-weight: Medium;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.link {
+  font-weight: Regular;
+  font-size: 12px;
+  letter-spacing: 4%;
+  line-height: 16px;
+  color: #2e2f42;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #4d5ae5;
+}
+.logo-span {
+  color: #2e2f42;
+}
+.menu-link a {
+  font-weight: Medium;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2e2f42;
+}
+address a {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2e2f42;
+  font-style: normal;
+}
+nav a:hover {
+  color: #404bbf;
+}
+address a:hover {
+  color: #404bbf;
+}
+/* Hero section */
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-section h1 {
+  color: white;
+}
+/* Button */
+.hero-button {
+  font-weight: Medium;
+  font-size: 16px;
+  letter-spacing: 4%;
+  line-height: 24px;
+  color: white;
+  background-color: #4d5ae5;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #404bbf;
+}
+/* Footer */
+footer {
+  background-color: #2e2f42;
+}
+footer p {
+  color: white;
+}
+footer .logo-span {
+  color: white;
+}
